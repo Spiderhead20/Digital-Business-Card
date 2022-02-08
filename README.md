@@ -19,4 +19,4 @@ JSX is an XML/HTML like extension to JavaScript.
 
 As for the project done using react, here's the result:
 
-![alt text](./src/screenshot.png)
+![Screenshot](./src/Screenshot.png)
