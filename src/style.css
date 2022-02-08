@@ -1,0 +1,197 @@
+body {
+    background-color: #23252C;
+}
+
+.info-section {
+    text-align: center;
+    width: 317px;
+    margin-top: 20px;
+    position: absolute;
+    left: calc(50% - 158.5px);
+    display: block;
+}
+
+.info-img {
+    width: 317px;
+    height: 317px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.info-sub {
+    background-color: #1A1B21;
+    padding: 5px;
+    margin-top: -5px
+}
+
+.info-name{
+    color: white;
+    font-family: 'Malgun Gothic';
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: -5px;
+}
+
+.info-job {
+    color: #F3BF99;
+    font-family: 'Malgun Gothic';
+    font-size: 12.8px;
+    margin-bottom: 5px;
+}
+
+.info-website {
+    color: #F5F5F5;
+    font-family: 'Malgun Gothic';
+    font-size: 10.24px;
+    margin-bottom: 20px;
+}
+
+.info-buttons{
+    display: flex;
+    justify-content: space-around;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+.info-linkedin {
+    background-color: #5093E2;
+    display: flex;
+    align-items: center;
+    width: 115px;
+    height: 34px;
+    justify-content: space-around;
+    padding: 5px;
+    flex-direction: row;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+    padding: 10px;
+}
+
+    .info-linkedin > img{
+        width: 20px;
+        height: 20px;
+        order: 0;
+    }
+
+    .info-linkedin > a{
+        font-family: 'Malgun Gothic';
+        color: white;
+        font-weight: bold;
+        order: 1;
+    }
+
+.info-email {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    width: 115px;
+    height: 34px;
+    justify-content: space-around;
+    padding: 5px;
+    flex-direction: row;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+    padding: 12px;
+}
+
+    .info-email > img {
+        width: 32px;
+        height: 32px;
+        order: 0;
+    }
+
+    .info-email > a {
+        font-family: 'Malgun Gothic';
+        color: black;
+        font-weight: bold;
+        order: 1;
+    }
+
+.about-section {
+    width: 317px;
+    position: absolute;
+    left: calc(50% - 158.5px);
+    margin-top: 490px;
+    background-color: #1A1B21;
+    text-align: left;
+}
+
+    .about-section > h1 {
+        font-family: 'Malgun Gothic';
+        color: white;
+        font-size: 16px;
+        font-weight: bold;
+        text-align: left;
+        padding: 0px 27.5px 0px;
+    }
+
+    .about-section > h2 {
+        font-family: 'Malgun Gothic';
+        color: #DCDCDC;
+        font-size: 10.24px;
+        word-wrap: break-word;
+        white-space: pre-wrap;
+        font-weight: normal;
+        width: 250px;
+        text-align: left;
+        padding: 0px 27.5px 0px;
+    }
+
+.interests-section {
+    width: 317px;
+    position: absolute;
+    left: calc(50% - 158.5px);
+    margin-top: 600px;
+    padding: 30px 0px;
+    background-color: #1A1B21;
+    text-align: left;
+}
+
+    .interests-section > h1 {
+        font-family: 'Malgun Gothic';
+        color: white;
+        font-size: 16px;
+        font-weight: bold;
+        text-align: left;
+        padding: 0px 27.5px 0px;
+    }
+
+    .interests-section > h2 {
+        font-family: 'Malgun Gothic';
+        color: #DCDCDC;
+        font-size: 10.24px;
+        word-wrap: break-word;
+        white-space: pre-wrap;
+        font-weight: normal;
+        width: 250px;
+        text-align: left;
+        padding: 0px 27.5px 0px;
+    }
+
+.footer-section {
+    width: 317px;
+    background-color: #161619;
+    position: absolute;
+    left: calc(50% - 158.5px);
+    display: flex;
+    margin-top: 760px;
+    justify-content: space-around;
+    padding: 20px 0px;
+}
+
+    .footer-section > button {
+        width: 25px;
+        height: 25px;
+        padding: 0px;
+        background-color: #0000;
+        justify-content: space-between;
+        background: transparent;
+        box-shadow: none;
+        border: none;
+    }
+
+        .footer-section > button > img {
+            width: inherit;
+            height: inherit;
+            margin: 0px;
+            border-radius: 5px;
+        }
